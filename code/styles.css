@@ -1,0 +1,70 @@
+*{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(57, 64, 66);
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 4vmin;
+    padding: 1vmin 2vmin;
+    text-align: center;
+}
+
+
+.github{
+    height: 5.5rem;
+    max-width: 100%;
+    margin-right: 2.5vmin;
+  }
+  .youtube{
+    height: 4.6875rem;
+    max-width: 100%;
+   
+  }
+  .cat{
+    position: relative;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .linkedin{
+      height: 5.125rem;
+      max-width: 100%;
+      border-width: 0.1875rem;
+    }
+
+  .links{
+    position: relative;
+    /*margin-left: 28%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .circle{
+    --circle-size: 4.6825rem;
+    position: absolute;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: 0.4375rem solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: 0.01s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0.5;
+}
