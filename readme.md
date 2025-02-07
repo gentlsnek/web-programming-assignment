@@ -15,5 +15,5 @@ This is a portfolio website showcasing my projects and skills. It is built using
 - HTML
 - CSS
 - JavaScript
-- PHP
+
 
